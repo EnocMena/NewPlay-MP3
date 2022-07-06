@@ -1,7 +1,7 @@
 """
 TODO LIST:
-- Change the background color of main tkinter window
-- Add a button to the window and test it works
+DONE - Change the background color of main tkinter window
+- Add menu on the left side of tkinter window
 """
 
 # import libraries
@@ -14,10 +14,9 @@ window.geometry('1000x800')
 window.minsize(1000, 800) # minimum size user can scale window
 window.maxsize(1200, 1000) # maximum size user can scale window
 
-# test widget
-testWidget = tk.Label(text="Press me")
-testWidget.pack()
+# menu
+
 
 # loop window
-window.config(bg="red") # background color
+window.config(bg="orange") # background color
 window.mainloop()
