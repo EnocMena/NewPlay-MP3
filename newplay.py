@@ -2,7 +2,9 @@
 TODO LIST:
 DONE - Change the background color of main tkinter window
 Done - Add menubar
+- Make main tkinter window the home window
 - Start coding artist search window function
+- Add a back to previous window button
 """
 
 # import libraries
